@@ -1,0 +1,17 @@
+.col-sm {
+
+  width: 100%;
+  margin-top: 50px;
+}
+
+.col-sm img {
+	width: 100%;
+	height: auto;
+
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+}
