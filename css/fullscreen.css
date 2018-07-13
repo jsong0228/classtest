@@ -73,8 +73,9 @@ body {
   }
 
   .bodyContainer {
-      margin-left: 20%;
-      margin-right: 10%;
+    margin: 0 auto;
+    display: block;
+    max-width: 75%;
   }
 }
 
