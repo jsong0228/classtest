@@ -1,49 +1,94 @@
-<html>
-<head>
-  <!-- Google Analytics Content Experiment code -->
-<script>function utmx_section(){}function utmx(){}(function(){var
-k='178181324-0',d=document,l=d.location,c=d.cookie;
-if(l.search.indexOf('utm_expid='+k)>0)return;
-function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
-indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
-length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
-'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
-'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
-'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
-valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
-'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
-</script><script>utmx('url','A/B');</script>
-<!-- End of Google Analytics Content Experiment code -->
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <style>
-   a {
-    font-size: 31px;
-    font-family: "Raleway";
-    text-decoration: none;
-    color: slategrey;
-}
-   a:hover {
-     background-color: lightyellow;
-     text-decoration: none;
-     color: black;
-     cursor: pointer;
-   }
-  </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-</head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/fullscreen.css">
+    <link rel="stylesheet" type="text/css" href="css/workstyles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>Work</title>
+
+    <!-- Hotjar Tracking Code for https://jsong0228.github.io/classtest/work.html -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:946428,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+  </head>
+
 <body>
-  <a href="#">Click me!</p>
-    
-<!-- Hotjar Tracking Code for https://jsong0228.github.io/classtest/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:946401,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-</body>
-</html>
+    <div class="bodyContainer-fluid">
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="work.html">WORK</a>
+        <a href="contact.html">CONTACT</a>
+
+  </div>
+</div>
+
+<div class="menu-button" style="font-size:25px; cursor:pointer; color: black;" onclick="openNav()">&#9776; </div>
+    <div class="container-fluid">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">WORK</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html"><img src="img/juliesong_logo3.jpg"></a>
+        </li>
+
+      </ul>
+    </div>
+      <ul id="menu">
+      	<li><a href="work.html">WORK</a></li>
+      	<li><a href="contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm project1"><a href="bos.html"><img src="bos/bos_mockup3.jpg" alt="Blue Ocean Society">
+
+          </div>
+          <div class="col-sm project2"><a href="#"><img src="img/thumbnail2-office.jpg" alt="Office Image">
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm project3"><a href="#"><img src="img/thumbnail5-report.png" alt="Report Image">
+          </div>
+          <div class="col-sm project4"><a href="#"><img src="img/thumbnail6-indesign.png" alt="indesign Image">
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+        <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+      </body>
+
+      </html>
